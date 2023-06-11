@@ -1,0 +1,230 @@
+body {
+    background-color: #f5f2ea;
+    padding: 0 2rem;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+}
+
+.heading {
+    font-weight: bolder;
+    border-bottom: 1px solid;
+    display: inline-block;
+    font-family: 'Kanit', sans-serif;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    width: 35%;
+    margin: auto;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 1rem;
+    flex-direction: column;
+    min-width: 510px;
+    min-height: 664px;
+}
+
+
+.title {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.title h2 {
+    margin-bottom: 2px;
+}
+
+.title p {
+    margin-top: 2px;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    font-size: 1rem;
+    color: rgb(179, 178, 178);
+}
+
+.user-inputs {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+}
+
+.sub-label {
+    color: rgb(179, 178, 178);
+    font-size: 0.8rem;
+}
+
+label {
+    display: block;
+}
+
+.input-div input[type="text"] {
+    border: 1px solid #000000;
+    padding: 0.35rem 0.85rem 0.35rem 0.4rem;
+    line-height: 1.2rem;
+    font-size: 1rem;
+    font-weight: 200;
+    border-radius: 0.3rem;
+    font-family: 'Work Sans', sans-serif;
+    width: 100%;
+}
+
+.colors {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    margin-top: 2rem;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.color-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.color-input input {
+    width: 3rem;
+    height: 3rem;
+}
+
+.color-input p {
+    margin: 2px;
+    font-size: 0.8rem;
+    color: rgb(179, 178, 178);
+}
+
+.rollers {
+    display: flex;
+    flex-direction: column;
+}
+
+.rollers input[type="range"] {
+    -webkit-appearance: none;
+    appearance: none;
+    background: rgb(238, 237, 237);
+    cursor: pointer;
+    margin-top: 0.8rem;
+}
+
+.rollers input[type="range"]::-webkit-slider-runnable-track {
+    height: 0.3rem;
+}
+
+.rollers input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    margin-top: -8px;
+    background-color: #ffd000;
+    height: 1.2rem;
+    width: 1.2rem;
+    border-radius: 50%;
+}
+
+.rollers label {
+    margin-top: 1rem;
+}
+
+
+.radio-set {
+    border: none;
+    margin-top: 1rem;
+    padding: 0px;
+
+}
+
+
+.radio-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.radio-button {
+    border: 1px solid #000000;
+    border-radius: 0.3rem;
+    display: flex;
+    align-items: center;
+    padding: 0.25rem 0.5rem;
+    margin-right: 0.25rem;
+    margin-bottom: 0.5rem;
+}
+
+input[type='radio'] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    padding: 2px;
+    background-clip: content-box;
+    border: 1px solid #fdc886;
+    background-color: #ffffff;
+    border-radius: 50%;
+}
+
+input[type='radio']:checked {
+    background-color: #fdc886;
+}
+
+input[type='radio']:focus {
+    outline: none;
+    border: 2px solid #dea764;
+    background-color: #dea764;
+}
+
+
+.submit {
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.submit-btn {
+    position: relative;
+    width: 50%;
+    margin: auto;
+    font-size: 1rem;
+    padding: 0.6rem 1.2rem;
+    background-color: #ffd00088;
+    border: 2px solid #ffd00088;
+    border-radius: 0.5rem;
+    line-height: 1.1rem;
+    color: #aa8b02;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    /* Slower transition effect */
+}
+
+.submit-btn:hover {
+    transform: translateY(-5px);
+    /* Move the button 5 pixels upward */
+}
+
+
+.image-result {
+    height: 22rem;
+    width: 22rem;
+}
+
+#captions {
+    margin-top: 10px;
+}
+
+.card-back {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-back{
+    display: none;
+}
