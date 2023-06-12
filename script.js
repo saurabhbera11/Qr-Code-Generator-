@@ -130,7 +130,7 @@ let imageResult=document.getElementById("image-result");
 submitButton.addEventListener('click',()=>{
   generateInputs();
   const params=getParams(inputs);
-  const url=`http://api.qrserver.com/v1/create-qr-code/?${params}`;
+  const url=`https://api.qrserver.com/v1/create-qr-code/?${params}`;
   fetch(url).then((res)=>{
     if(res.status==200){
       imageResult.setAttribute('src',url);
